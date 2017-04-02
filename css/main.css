@@ -95,6 +95,164 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(90DEG, #d7d2cc 0%, #304352 50%, #d7d2cc 100%);
+}
+
+header {
+    background-color: black;
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+}
+
+header:hover {
+    color: green;
+    background-color: transparent;
+    transition: 3s;
+}
+
+/*.ssTitre{
+    color: red;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+}
+*/
+/*header:hover+.ssTitre{
+    opacity: 1;
+    transition: 3s;
+}
+*/
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+header {
+    display: flex;
+
+}
+/*BG IMG*/
+.fond {
+    height: 100vh;
+    margin:0 15vw;
+    position: relative;
+    z-index: -1;
+}
+/*END BG IMG*/
+
+.navTitre{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    /*background-color: grey;*/
+    /*opacity: .5;*/
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e4572e;
+    z-index: 4;
+}
+
+aside nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside nav ul li{
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin: 10% 30%;
+    font-size: 10em;
+    font-family: 'UnifrakturCook', cursive;
+    opacity: .5;
+    position: fixed;
+}
+
+.ssTitre{
+    color: red;
+    margin: 30vw auto;
+    vertical-align: bottom;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+}
+
+h1:hover {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+h1:hover+.ssTitre{
+    opacity: 1;
+    vertical-align: bottom;
+    transition: 3s;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+section article{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    background-color: lightblue;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    /*background-color: red;*/
+}
+
+section article:hover {
+    filter: grayscale(0);
+    transition: 1.5s;
+}
+
+h3{
+    margin: auto;
+    width: 50%;
+}
+
+section article figure{
+    height: 100%;
+}
+
+section article figure img{
+    height: 100%;
+}
 
 
 
