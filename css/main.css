@@ -303,6 +303,40 @@ START OF SECTION GALERIE*/
 /*END OF SECTION GALERIE
     -----
     -----
+START OFSECTION BLOG*/
+
+.blogArt {
+    height: 60vh;
+    width: 75vw;
+    background-color: grey;
+    border: 2px solid #92140c;
+    border-radius: 20px;
+    z-index: 4;
+    margin: 10px 0;
+    text-align: center;
+    overflow: scroll;
+}
+
+.blogArt figure {
+    height: 80%;
+    float: left;
+}
+
+.blogArt figure img {
+    height: 100%;
+    border: 2px solid #92140c;
+    border-radius: 20px;
+}
+
+.blogArt h3 {
+    /*background-color: #92140c;*/
+    margin: 3% 25%;
+
+}
+
+/*END OFSECTION BLOG
+    -----
+    -----
 START OF FOOTER*/
 
 footer, footer ul {
@@ -374,6 +408,10 @@ h1:hover+.ssTitre{
     color: black;
     filter: invert(0);
     transition: .5s;
+}
+
+.blogArt:hover>h3 {
+    background-color: #92140c;
 }
 
 
