@@ -95,63 +95,85 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*START OF BODY
+/*START OF BODY*/
+
+body {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(90DEG, #d7d2cc 0%, #304352 50%, #d7d2cc 100%);
+}
+
+/*END OF BODY*/
+    /*-----*/
+    /*-----*/
+/*START OF BACKGROUND*/
+
+.veille {
+    background-color: black;
+    /*position: fixed;*/
+    z-index: -1
+}
 
 
-END OF BODY
+.fond {
+    height: 100vh;
+    margin:0 15vw;
+    position: relative;
+    z-index: -2;
+}
+
+/*END OF BACKGROUND
     -----
     -----
-START OF BACKGROUND
+START OF HEADER*/
 
-END OF BACKGROUND
+/*START OF ASIDE*/
+
+/*START OF NAVBAR*/
+
+/*END OF NAVBAR*/
+
+/*END OF ASIDE*/
+
+/*START OF H1*/
+
+/*END OF H1*/
+
+/*END OF HEADER
     -----
     -----
-START OF HEADER
+START OF SECTION*/
 
-START OF ASIDE
+/*START OF H2*/
 
-START OF NAVBAR
+/*END OF H2*/
 
-END OF NAVBAR
+/*START OF ARTICLE*/
 
-END OF ASIDE
+/*END OF ARTICLE*/
 
-START OF H1
-
-END OF H1
-
-END OF HEADER
+/*END OF SECTION
     -----
     -----
-START OF SECTION
+START OF FOOTER*/
 
-START OF H2
+/*START OF NAV*/
 
-END OF H2
+/*END OF NAV*/
 
-START OF ARTICLE
-
-END OF ARTICLE
-
-END OF SECTION
+/*END OF FOOTER
     -----
     -----
-START OF FOOTER
+START OF FX*/
 
-START OF NAV
+/*--> VEILLE*/
+.veille:hover {
+    background-color: transparent;
+    transition: 3s;
+}
+/*--> NAV*/
 
-END OF NAV
-
-END OF FOOTER
-    -----
-    -----
-START OF FX
-
---> VEILLE
-
---> NAV
-
---> TITRE*/
+/*--> TITRE*/
 
 
 
@@ -169,7 +191,6 @@ header {
 /*}
 
 header:hover {
-    color: green;
     background-color: transparent;
     transition: 3s;
 }
