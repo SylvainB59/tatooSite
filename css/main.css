@@ -98,7 +98,6 @@ textarea {
 /*START OF BODY*/
 
 body {
-    color: white;
     font-family: 'Kaushan Script', cursive;
     background-image: linear-gradient(270DEG, #d7d2cc 0%, #304352 50%, #d7d2cc 100%);
 }
@@ -303,7 +302,7 @@ START OF SECTION GALERIE*/
 /*END OF SECTION GALERIE
     -----
     -----
-START OFSECTION BLOG*/
+START OF SECTION BLOG*/
 
 .blogArt {
     height: 60vh;
@@ -329,12 +328,40 @@ START OFSECTION BLOG*/
 }
 
 .blogArt h3 {
-    /*background-color: #92140c;*/
     margin: 3% 25%;
 
 }
 
-/*END OFSECTION BLOG
+/*END OF SECTION BLOG
+    -----
+    -----
+START OFSECTION CONTACT*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #92140c;
+    width: 50%;
+    z-index: 6;
+}
+
+.contact figure iframe, .input {
+    border-radius: 10%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    margin: 5%;
+    background-color: #d7d2cc;
+}
+
+
+/*END OF SECTION CONTACT
     -----
     -----
 START OF FOOTER*/
