@@ -343,7 +343,7 @@ START OFSECTION CONTACT*/
     text-align: center;
     border: 2px solid #92140c;
     width: 50%;
-    z-index: 6;
+    z-index: 4;
 }
 
 .contact figure iframe, .input {
@@ -443,7 +443,9 @@ h1:hover+.ssTitre{
 
 
 
+@media {
 
+}
 
 
 
